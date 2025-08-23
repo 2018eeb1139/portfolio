@@ -27,7 +27,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-background">
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-card to-background">
-        <div className="absolute inset-0 bg-[url('src/assets/images/placeholder-00pq4.png')] bg-cover bg-center opacity-5"></div>
+        <div className="absolute inset-0 bg-[url('/placeholder-00pq4.png')] bg-cover bg-center opacity-5"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in-up">
           <h1 className="font-heading font-black text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 tracking-tight">
             Aman Pratap Chandra
@@ -126,7 +126,7 @@ export default function App() {
             <div className="relative">
               <div className="w-full h-96 bg-card rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src="src/assets/images/proffesional_pic.png"
+                  src="/proffesional_pic.png"
                   alt="Professional portrait"
                   className="w-full h-full object-cover"
                 />
