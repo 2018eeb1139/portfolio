@@ -236,7 +236,7 @@ export default function App() {
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img
-                  src="/modern-ecommerce-dashboard.png"
+                  src="/ecommerce.png"
                   alt="Full-Stack Ecommerce Website"
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -294,7 +294,7 @@ export default function App() {
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img
-                  src="/project2.png"
+                  src="/cold_email.png"
                   alt="Cold Mail Generator"
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -383,7 +383,7 @@ export default function App() {
                     Banking and Financial solutions using Generative AI
                   </li>
                   <li>
-                    • Successfully developed and delivered 7+ projects within
+                    • Successfully developed and delivered 10+ projects within
                     two years as part of BFS Innovation Lab
                   </li>
                   <li>
