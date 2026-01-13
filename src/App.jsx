@@ -87,7 +87,7 @@ export default function App() {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              IIT Ropar graduate with 3+ years of experience in Software
+              IIT Ropar graduate with 3.5+ years of experience in Software
               Development Engineering at LTIMindtree
             </p>
           </div>
@@ -209,6 +209,9 @@ export default function App() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
+                  <Badge variant="outline">Github Copilot</Badge>
+                  <Badge variant="outline">Cursor</Badge>
+                  <Badge variant="outline">WindSurf</Badge>
                   <Badge variant="outline">Docker</Badge>
                   <Badge variant="outline">Git/GitHub</Badge>
                   <Badge variant="outline">VS Code</Badge>
@@ -477,7 +480,7 @@ export default function App() {
                     >
                       HackerRank
                     </a>{" "}
-                    | 540+ Problems solved on{" "}
+                    | 545+ Problems solved on{" "}
                     <a
                       href="https://leetcode.com/u/2018eeb1139/"
                       target="_blank"
