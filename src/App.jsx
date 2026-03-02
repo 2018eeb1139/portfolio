@@ -87,7 +87,7 @@ export default function App() {
               About Me
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              IIT Ropar graduate with 3.5+ years of experience in Software
+              IIT Ropar graduate with 3.7+ years of experience in Software
               Development Engineering at LTIMindtree
             </p>
           </div>
@@ -345,6 +345,133 @@ export default function App() {
                   </Badge>
                   <Badge variant="outline" className="text-xs">
                     Pandas
+                  </Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="relative overflow-hidden">
+                <img
+                  src="/cold_email.png"
+                  alt="Cold Mail Generator"
+                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-secondary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="flex gap-4">
+                    <Button size="sm" variant="secondary">
+                      <a
+                        href="https://github.com/2018eeb1139/aman-chandra-react-dishpoll"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center"
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        Code
+                      </a>
+                    </Button>
+                    <Button size="sm" variant="secondary">
+                      <a
+                        href="https://aman-chandra-react-dishpoll.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Live Demo
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl">DishPoll App</CardTitle>
+                <CardDescription>
+                  Built a react app for ranking dishes. Multiple users should be
+                  able to login into the app and vote for their favourite dishes
+                  and see the results of the poll.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline" className="text-xs">
+                    React
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Vite
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Tailwind CSS
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Shadcn/ui
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    React hot toast
+                  </Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="relative overflow-hidden">
+                <img
+                  src="/cold_email.png"
+                  alt="Cold Mail Generator"
+                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-secondary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="flex gap-4">
+                    <Button size="sm" variant="secondary">
+                      <a
+                        href="https://github.com/2018eeb1139/aman-chandra-react-perfume"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center"
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        Code
+                      </a>
+                    </Button>
+                    <Button size="sm" variant="secondary">
+                      <a
+                        href="https://aman-chandra-react-perfume.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Live Demo
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl">Aman's Perfume</CardTitle>
+                <CardDescription>
+                  Built a responsive web application having Eye-catching hero
+                  section with call-to-action, Display perfumes with images,
+                  descriptions, and pricing Product Details, Detailed view of
+                  individual perfumes with specifications.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline" className="text-xs">
+                    React
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Vite
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Tailwind CSS
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Shadcn/ui
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    React Routing
                   </Badge>
                 </div>
               </CardContent>
