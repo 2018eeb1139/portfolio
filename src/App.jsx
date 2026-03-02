@@ -353,7 +353,7 @@ export default function App() {
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img
-                  src="/cold_email.png"
+                  src="/dishpoll.png"
                   alt="Cold Mail Generator"
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -416,7 +416,7 @@ export default function App() {
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img
-                  src="/cold_email.png"
+                  src="/perfume.png"
                   alt="Cold Mail Generator"
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
