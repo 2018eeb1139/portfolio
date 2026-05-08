@@ -543,6 +543,83 @@ export default function App() {
                 </div>
               </CardContent>
             </Card>
+
+            <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="relative overflow-hidden">
+                <img
+                  src="/bug.png"
+                  alt="Bug Tracker"
+                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-secondary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="flex gap-4">
+                    <Button size="sm" variant="secondary">
+                      <a
+                        href="https://github.com/2018eeb1139/bug-tracker-application"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center"
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        Code
+                      </a>
+                    </Button>
+                    <Button size="sm" variant="secondary">
+                      <a
+                        href="https://bug-tracker-application-5jdjz64xb.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Live Demo
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl">Bug Tracker</CardTitle>
+                <CardDescription>
+                  Built a Bug Tracker for Development Teams which helps them
+                  track bugs and their severity like critical, high, medium,
+                  low. They can track the status of the bugs journey and
+                  dispalying weekly analytics, progress stage and progress
+                  funnel.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline" className="text-xs">
+                    React
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Typescript
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Vite
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Tailwind CSS
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Shadcn/ui
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    React Routing
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    React Hot Toast
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    Express
+                  </Badge>
+                  <Badge variant="outline" className="text-xs">
+                    MongoDB
+                  </Badge>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
